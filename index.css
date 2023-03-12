@@ -3,8 +3,32 @@
 	margin: 0px;
 	border: none;
 }
+.body {
+	background-color: #eecaa3;
+	width: 70rem;
+	height: 100%;
+	margin: 0 20rem;
+
+}
+.header {
+	text-align:center;
+	background-color: #eecaa3;
+	height: 5rem;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 h1 {
-	color: blue;
+	color: black;
+}
+
+p {
+	font-size: 2rem;
+}
+.text {
+	height: 5rem;
 }
 
 .section:hover img {
@@ -15,6 +39,9 @@ h1 {
 	rotate: z 45deg;
 }
 
+.section {
+	width: 50rem;
+}
 .text {
 	display: flex;
 }
