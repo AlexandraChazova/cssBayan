@@ -40,7 +40,8 @@ p {
 }
 
 .section:hover img {
-	display: block;
+	height: 400px;
+	width: 400px;
 }
 
 .section:hover .wrapper {
@@ -57,9 +58,22 @@ p {
 	flex-direction: column;
 	align-items: center;
 }
+
+.section:hover {
+	cursor: pointer;
+}
+
+.section:active p {
+	color: blue;
+}
+
+.wrapper {
+	height: 20px;
+	transition: 0.5s;
+}
+
 .text {
 	display: flex;
-
 }
 
 .wrapper {
@@ -76,7 +90,7 @@ p {
 }
 
 .cross2 {
-	left: 7px;
+	left: 7.5px;
 	position: absolute;
 	height: 20px;
 	width: 5px;
@@ -84,10 +98,10 @@ p {
 }
 
 img {
-	display: none;
+	width: 0px;
+	height: 0px;
+	transition: 0.5s;
 }
-
-
 
 
 @media screen and (max-width: 1920px) {
@@ -132,9 +146,9 @@ img {
 		width: 3px;
 		background-color: black;
 	}
-img {
-	width: 20rem;
-	height: 20rem;
+.section:hover img {
+	width: 15rem;
+	height: 15rem;
 }
 }
 @media screen and (max-width: 320px) {
@@ -176,10 +190,9 @@ img {
 		width: 3px;
 		background-color: black;
 	}
-
-	img {
-		width: 16rem;
-		height: 16rem;
+	.section:hover img {
+		width: 10rem;
+		height: 10rem;
 	}
 }
 
