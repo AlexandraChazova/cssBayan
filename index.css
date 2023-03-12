@@ -6,3 +6,40 @@
 h1 {
 	color: blue;
 }
+
+.section:hover img {
+	display: block;
+}
+
+.section:hover .wrapper {
+	rotate: z 45deg;
+}
+
+.text {
+	display: flex;
+}
+
+.wrapper {
+	width: 20px;
+	position: relative;
+}
+
+.cross1 {
+	top: 7px;
+	position: absolute;
+	height: 5px;
+	width: 20px;
+	background-color: black;
+}
+
+.cross2 {
+	left: 7px;
+	position: absolute;
+	height: 20px;
+	width: 5px;
+	background-color: black;
+}
+
+img {
+	display: none;
+}
