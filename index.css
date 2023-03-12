@@ -10,7 +10,6 @@ html {
 	background-color: #f3ddc4;
 	width: 70rem;
 	margin: 0 20rem;
-
 }
 .header {
 	text-align:center;
@@ -87,3 +86,103 @@ p {
 img {
 	display: none;
 }
+
+
+
+
+@media screen and (max-width: 1920px) {
+	.body {
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (max-width: 820px) {
+	.body {
+		width: 100%;
+		margin: 0 auto;
+	}
+	h1 {
+		font-size: 1.9rem;
+	}
+
+	p {
+		font-size: 1.4rem;
+	}
+	.section {
+		width: 30rem;
+		border-bottom: solid 1.5px;
+	}
+	.text {
+		height: 3.3rem;
+		width: 30rem;
+	}
+	.cross1 {
+		top: 5.5px;
+		position: absolute;
+		height: 3px;
+		width: 15px;
+		background-color: black;
+	}
+
+	.cross2 {
+		left: 5.5px;
+		position: absolute;
+		height: 15px;
+		width: 3px;
+		background-color: black;
+	}
+img {
+	width: 20rem;
+	height: 20rem;
+}
+}
+@media screen and (max-width: 320px) {
+	.body {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-size: 0.8rem;
+	}
+
+	.section {
+		width: 20rem;
+		border-bottom: solid 1.2px;
+	}
+
+	.text {
+		height: 3rem;
+		width: 25rem;
+	}
+
+	.cross1 {
+		top: 5.5px;
+		position: absolute;
+		height: 3px;
+		width: 15px;
+		background-color: black;
+	}
+
+	.cross2 {
+		left: 5.5px;
+		position: absolute;
+		height: 15px;
+		width: 3px;
+		background-color: black;
+	}
+
+	img {
+		width: 16rem;
+		height: 16rem;
+	}
+}
+
+
+
+
